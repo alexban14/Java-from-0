@@ -17,7 +17,7 @@ public class NotImmutable {
 }
 
 // be returning type of StringBuilder the user of the class
-// can call methods the object itself and thus making the class mutable
+// can call methods on the object itself and thus making the class mutable
 class VerifyImmutablity {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("initial");
