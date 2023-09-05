@@ -20,7 +20,7 @@ public class Lemur extends Primate implements HasTail {
         HasTail hasTail = lemur;
         System.out.println(hasTail.isTailStriped());
         System.out.println(hasTail.age); // DOES NOT COMPILE
-        // the reference hasTail has direct access only to the methods defined with the HasTail interface
+        // the reference hasTail has direct access only to the methods defined within the HasTail interface
 
         Primate primate = lemur;
         System.out.println(primate.hasHair());
